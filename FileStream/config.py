@@ -6,7 +6,7 @@ load_dotenv()
 class Telegram:
     API_ID = int(env.get("API_ID", '24401235'))
     API_HASH = str(env.get("API_HASH", '149f7e13d7d861b27cffc3ab1fd52b22'))
-    BOT_TOKEN = str(env.get("BOT_TOKEN", '6491531689:AAEaGLAeJqSAOWbPvxik3vsXETSi3PNMxFQ'))
+    BOT_TOKEN = str(env.get("BOT_TOKEN", '7641854793:AAGC1Bgx7gVh8DgZZulDhERC6bcOBzSL1GE'))
     OWNER_ID = int(env.get('OWNER_ID', '1556830659'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://avianandh004:TeamHdt009@cluster0.hdvf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
