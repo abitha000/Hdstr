@@ -9,7 +9,7 @@ class Telegram:
     BOT_TOKEN = str(env.get("BOT_TOKEN", '7705751598:AAEBRa-i6nabT0oO0WBQA2hT-4mOL_h72ik'))
     OWNER_ID = int(env.get('OWNER_ID', '1556830659'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
-    DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://avianandh004:TeamHdt009@cluster0.hdvf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
+    DATABASE_URL = str(env.get('DATABASE_URL', 'mongodb+srv://avineyjr004:Team_HDSTR@cluster0.oxbmm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(env.get('UPDATES_CHANNEL', "Team_HDT"))
     SESSION_NAME = str(env.get('SESSION_NAME', 'FileStream'))
     FORCE_SUB_ID = env.get('FORCE_SUB_ID', None)
